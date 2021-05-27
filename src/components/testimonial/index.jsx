@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 const Testimonial = ({ data }) => {
@@ -8,7 +7,7 @@ const Testimonial = ({ data }) => {
 
             <div className="testimonial-content">
                 <h6 className="name">
-                    <Link to="/">{data.name} </Link> /{" "}
+                    <span className="author-name">{data.name} </span> /{" "}
                     <span> {data.designation}</span>
                 </h6>
                 <p>{data.excerpt}</p>

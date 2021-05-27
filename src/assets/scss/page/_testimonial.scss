@@ -24,14 +24,10 @@
 
     & .testimonial-content {
         & .name {
-            & a {
+            & .author-name {
                 font-weight: 700;
                 font-size: 20px;
                 color: $white;
-
-                &:hover {
-                    color: $primary;
-                }
             }
             & span {
                 font-size: 20px;

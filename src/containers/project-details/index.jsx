@@ -201,7 +201,7 @@ const ProjectDetailsContainer = ({ data }) => {
                 </div>
 
                 <div className="next text-center section-padding">
-                    <Link to="/">Next</Link>
+                    <button>Next</button>
                 </div>
             </div>
         </div>

@@ -334,6 +334,8 @@ img{
     margin-bottom: -10px;
 
     & .more{
+        background-color: transparent;
+        border: 0;
         font-size: 18px;
         font-family: $custom-font-family;
         font-weight: 400;

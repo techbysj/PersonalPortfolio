@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import ContactForm from "../../components/contact-form";
 
 const ContactContainer = () => {
@@ -17,10 +16,14 @@ const ContactContainer = () => {
                         <div className="contact-section-wrapper">
                             <div className="contact-info" data-aos="fade-up">
                                 <span className="mail">
-                                    <Link to="/">hello@andle.com</Link>
+                                    <a href="mailto:someone@example.com">
+                                        hello@andle.com
+                                    </a>
                                 </span>
                                 <span className="number">
-                                    <Link to="/">(+056) 563 38 38 49</Link>
+                                    <a href="tel:+012345678900">
+                                        (+012) 345 67 89 00
+                                    </a>
                                 </span>
                             </div>
 

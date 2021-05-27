@@ -4,12 +4,12 @@ import PropTypes from "prop-types";
 const Brand = ({ data }) => {
     return (
         <div className="image-box">
-            <Link to="/">
+            <span>
                 <img
                     src={process.env.PUBLIC_URL + data.image}
                     alt="andle-Brand-Logo"
                 />
-            </Link>
+            </span>
         </div>
     );
 };

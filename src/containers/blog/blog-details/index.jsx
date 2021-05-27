@@ -125,7 +125,7 @@ const BlogDetailsContainer = ({ data }) => {
                                 <div className="related-post-wrapper">
                                     <div className="row">
                                         {BlogData &&
-                                            BlogData.slice(0, 2).map(
+                                            BlogData.slice(1, 3).map(
                                                 (single, key) => {
                                                     return (
                                                         <BlogItem

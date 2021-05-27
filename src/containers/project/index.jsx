@@ -45,9 +45,7 @@ const ProjectContainer = () => {
                 </div>
 
                 <div className="load-more text-center section-padding">
-                    <Link to="/" className="more">
-                        load more
-                    </Link>
+                    <button className="more">load more</button>
                 </div>
             </div>
         </div>

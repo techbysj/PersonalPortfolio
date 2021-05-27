@@ -60,10 +60,10 @@ const AboutBannerContent = ({ data }) => {
             >
                 <SectionTitle classOption="section-title-2" title="Service" />
                 <h4 className="service-text">
-                    <Link to="/">
+                    <span>
                         UI/UX Interactive, Mobile App &amp; <br /> Video
                         Animator
-                    </Link>
+                    </span>
                 </h4>
             </div>
         </div>

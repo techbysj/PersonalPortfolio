@@ -27,8 +27,11 @@ const Pricing = ({ data }) => {
                             );
                         })}
                 </ul>
-                <Link to="/" className="btn btn-outline-primary d-block">
-                    get started now
+                <Link
+                    to={process.env.PUBLIC_URL + "/contact"}
+                    className="btn btn-outline-primary d-block"
+                >
+                    Contact me now
                 </Link>
             </div>
         </div>

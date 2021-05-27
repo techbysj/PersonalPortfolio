@@ -25,7 +25,7 @@ const Intro = ({ data }) => {
                     <p dangerouslySetInnerHTML={{ __html: data.desc }}></p>
                     <Link
                         className="slider-btn"
-                        to={process.env.PUBLIC_URL + "/"}
+                        to={process.env.PUBLIC_URL + "/project"}
                     >
                         See project
                     </Link>

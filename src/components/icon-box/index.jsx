@@ -18,7 +18,7 @@ const IconBox = ({ data }) => {
             </div>
             <div className="box-icon">
                 <i className={data.icon}></i>
-                <Link to="/" className="more">
+                <Link to={process.env.PUBLIC_URL + "/about"} className="more">
                     More
                 </Link>
             </div>

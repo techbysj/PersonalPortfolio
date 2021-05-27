@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Footer = () => {
     return (
         <div className="section bg-dark">
@@ -7,7 +5,7 @@ const Footer = () => {
                 <div className="footer-info-box text-center">
                     <h4 className="title">Let’s work together</h4>
                     <h2 className="mail">
-                        <Link to="/">hello@andle.com</Link>
+                        <a href="mailto:someone@example.com">hello@andle.com</a>
                     </h2>
                 </div>
 
