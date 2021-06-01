@@ -182,7 +182,7 @@ const ProjectDetailsContainer = ({ data }) => {
                     </ul>
                 </div>
 
-                <div className="reservation-form-wrapper section-padding-02">
+                <div className="reservation-form-wrapper section-padding-02 section-padding-03">
                     <h3
                         className="title"
                         data-aos="fade-up"
@@ -198,10 +198,6 @@ const ProjectDetailsContainer = ({ data }) => {
                     >
                         <ProjectForm />
                     </div>
-                </div>
-
-                <div className="next text-center section-padding">
-                    <button>Next</button>
                 </div>
             </div>
         </div>

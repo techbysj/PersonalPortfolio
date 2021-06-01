@@ -16,7 +16,7 @@ const BlogContainer = () => {
         ".messonry-button li"
     );
     return (
-        <div className="section">
+        <div className="section section-padding-03">
             <div className="container">
                 <PageTitle title="Time to write, share &amp; discuss" />
 
@@ -43,10 +43,6 @@ const BlogContainer = () => {
                                 />
                             ))}
                     </div>
-                </div>
-
-                <div className="load-more text-center section-padding">
-                    <button className="more">load more</button>
                 </div>
             </div>
         </div>

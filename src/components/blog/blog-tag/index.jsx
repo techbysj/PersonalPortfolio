@@ -23,7 +23,6 @@ const BlogTag = ({ data }) => {
             allTags.push(obj);
         }
     });
-    console.log(allTags);
     return (
         <div className="post-tags">
             <h6 className="label">Tags :</h6>

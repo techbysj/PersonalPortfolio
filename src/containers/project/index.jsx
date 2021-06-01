@@ -15,7 +15,7 @@ const ProjectContainer = () => {
         ".messonry-button li"
     );
     return (
-        <div className="section">
+        <div className="section section-padding-03">
             <div className="container">
                 <PageTitle title="Latest Projects" />
                 <div
@@ -42,10 +42,6 @@ const ProjectContainer = () => {
                                 </div>
                             ))}
                     </div>
-                </div>
-
-                <div className="load-more text-center section-padding">
-                    <button className="more">load more</button>
                 </div>
             </div>
         </div>

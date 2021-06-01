@@ -3,7 +3,6 @@ import React from "react";
 import BlogItem from "../../../components/blog/blog-item";
 
 const BlogItemContainer = ({ data }) => {
-    console.log(data);
     return (
         <div className="section section-padding-03">
             <div className="container">
