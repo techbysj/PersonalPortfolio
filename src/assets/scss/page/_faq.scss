@@ -12,6 +12,10 @@
 // FAQ's Menu 
 .faq-menu{
     padding-top: 53px;
+    // Responsive
+    @media #{$tablet-device , $large-mobile}{
+        padding-top: 30px;
+    }
 
     & .nav{
         & li{
@@ -37,6 +41,10 @@
 // Single FAQ 
 .single-faq{
     padding-top: 55px;
+    // Responsive
+    @media #{$tablet-device , $large-mobile}{
+        padding-top: 30px;
+    }
 
     & .title{
         font-size: 36px;

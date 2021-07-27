@@ -65,6 +65,13 @@
 // Work tabs Content
 .work-tab-content{
     padding-top: 68px;
+    // Responsive
+    @media #{$tablet-device}{
+        padding-top: 40px;
+    }
+    @media #{$large-mobile}{
+        padding-top: 30px;
+    }
 }
 
 // Tab Carousel 

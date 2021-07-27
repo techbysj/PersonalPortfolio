@@ -58,11 +58,6 @@ const ProjectForm = () => {
                         {errors.message && <p>{errors.message.message}</p>}
                     </div>
                 </div>
-                <div className="col-md-12">
-                    <div className="form-btn">
-                        <button>Send Message</button>
-                    </div>
-                </div>
             </div>
         </form>
     );

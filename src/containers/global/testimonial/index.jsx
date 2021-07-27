@@ -15,6 +15,20 @@ const TestimonialContainer = () => {
             delay: 2500,
             disableOnInteraction: false,
         },
+        breakpoints: {
+            0: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+            },
+            576: {
+                slidesPerView: 1,
+                spaceBetween: 30,
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            },
+        },
         navigation: {
             nextEl: ".testimonial-carousel .swiper-button-next",
             prevEl: ".testimonial-carousel .swiper-button-prev",

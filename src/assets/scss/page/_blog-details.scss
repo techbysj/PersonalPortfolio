@@ -5,21 +5,21 @@
 // Blog Details Content 
 .blog-details-content{
     padding-top: 90px;
-    padding-bottom: 150px;
+    padding-bottom: 80px;
 
     @media #{$laptop-device}{
-        padding-bottom: 110px;
+        padding-bottom: 80px;
     }
     @media #{$desktop-device}{
-        padding-bottom: 90px;
+        padding-bottom: 80px;
     }
     @media #{$tablet-device}{
         padding-top: 70px;
-        padding-bottom: 70px;
+        padding-bottom: 60px;
     }
     @media #{$large-mobile}{
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 40px;
     }
 
     & .blog-title{

@@ -65,8 +65,15 @@
 
 // Testimonial  Carousel 
 .testimonial-carousel{
-    padding-top: 80px;
+    padding-top:60px;
     position: relative;
+    // Responsive
+    @media #{$tablet-device}{
+        padding-top: 40px;
+    }
+    @media #{$large-mobile}{
+        padding-top: 30px;
+    }
 
     & .swiper-button-prev,
     & .swiper-button-next {

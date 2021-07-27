@@ -5,6 +5,13 @@
 // Achieved Year 
 .achieved-year{
     padding-top: 57px;
+    // Responsive
+    @media #{$tablet-device}{
+        padding-top: 0;
+    }
+    @media #{$large-mobile}{
+        padding-top: 0;
+    }
 }
 
 // Year Text 

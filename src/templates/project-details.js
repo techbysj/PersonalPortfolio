@@ -25,6 +25,7 @@ const ProjectDetails = ({
             </span>
         );
     });
+    console.log(cate);
     return (
         <React.Fragment>
             <Layout>
