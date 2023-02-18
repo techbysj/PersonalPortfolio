@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="footer-copyright-social">
                     <div className="footer-copyright">
                         <p>
-                            &copy; 2021 <span> Andle</span> Made with{" "}
+                            &copy; 2023 <span> Andle</span> Made with{" "}
                             <i className="icofont-heart" aria-hidden="true"></i>{" "}
                             by{" "}
                             <a
